@@ -28,7 +28,7 @@ where ft,d stands for number of repetitions of word t in document d, and nt is t
 - Employing Index elimination technique to reduce the occupied space.  
 - Similarity calculation using cosine-sim through the following equation:  
 
-![tf-idf equation](https://github.com/[zahrasalarian]/[Information-Retrieval]/blob/[master]/cosine-sim-equation.png?raw=true)  
+![tf-idf equation](cosine-sim-equation.png?raw=true)  
 
 - Building tf based Champion lists  
 - Outputting K-top results using max-heap  
