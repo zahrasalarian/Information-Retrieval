@@ -32,3 +32,19 @@ where ft,d stands for number of repetitions of word t in document d, and nt is t
 
 - Building tf based Champion lists  
 - Outputting K-top results using max-heap  
+
+## Phase 3: Optimizing the retrival system by the assistance of K-means clustering and KNN classification  
+
+When the volume of our data increases, we need to apply more efficient methods to exceed the time and space limitations, using following algorithms:  
+
+- K-means: we cluster the documents through this algorithm with k = 10 and 30 interations. Responding to a query is by firstly computing the similarity of query to the centroids and choosing the highest one and after that find the responses in that cluster.  
+
+- KNN: Using this algorithm, we implement a classification system with 5 categories inculing "health", "politics", "sports", "culture",and "economy". this engine labeles the documents and setes k to 5. The input query format should be as follows:
+
+```
+cat:<cat> <query>
+
+For example: 
+cat:health کرونا
+```
+
