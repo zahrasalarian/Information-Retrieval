@@ -22,7 +22,7 @@ This phase contains the implementation of some famous efficiancy boosting techni
 
 - Building Weighted Inverted Index using tf-idf vector representation, resulting from the following equation:  
 
-![tf-idf equation](https://github.com/[zahrasalarian]/[Information-Retrieval]/blob/[master]/tf-idf-equation.png?raw=true)  
+![tf-idf equation](tf-idf-equation.png?raw=true)  
 
 where ft,d stands for number of repetitions of word t in document d, and nt is the number of documents in which the word t has been appeared.  
 - Employing Index elimination technique to reduce the occupied space.  
